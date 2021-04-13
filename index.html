@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no user-scalable=no">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Balsamiq+Sans&display=swap"
+          rel="stylesheet">
+    <link class="x-icon" rel="shortcut icon" href="img/logo4.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/sweetalert.css">
+    <link rel="stylesheet" href="./css/jquery.fancybox.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="css/style.css" rel="stylesheet">
+    <title>БулЛавка</title>
+</head>
+<body>
+<header class="header">
+    <div class="header-container container">
+        <a href="index.html" class="logo">
+            <img src="img/logo4.png" alt="">
+        </a>
+        <div class="menu">
+            <div class="burger">
+                <a href="#" class="burger-link">
+                    <span></span>
+                </a>
+            </div>
+            <ul class="menu-items">
+                <li class="menu-item"><a class="active" href="index.html">Меню</a></li>
+                <li class="menu-item"><a href="index2.html">О нас</a></li>
+                <li class="menu-item"><a href="index3.html">Контакты</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<header class="menu-hide animated fadeInDown">
+    <div class="header-container container">
+        <a href="index.html" class="logo">
+            <img src="img/logo4.png" alt="">
+        </a>
+        <div class="menu">
+            <div class="burger">
+                <a href="#" class="burger-link">
+                    <span></span>
+                </a>
+            </div>
+            <ul class="menu-items">
+                <li class="menu-item"><a class="active" href="index.html">Меню</a></li>
+                <li class="menu-item"><a href="index2.html">О нас</a></li>
+                <li class="menu-item"><a href="index3.html">Контакты</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<div class="slideshow">
+    <div class="slideshow-item">
+        <img src="img/photo13.jpg" alt="">
+        <div class="slideshow-item-text">
+            <!--            <h5>Вас ждёт!</h5>-->
+            <!--            <p>Приветливый персонал</p>-->
+        </div>
+    </div>
+    <div class="slideshow-item">
+        <img src="img/photo6.jpg" alt="">
+        <div class="slideshow-item-text">
+            <!--            <h5>Всегда вкусный завтрак</h5>-->
+            <!--            <p>Описание</p>-->
+        </div>
+    </div>
+    <div class="slideshow-item">
+        <img src="img/photo7.jpg" alt="">
+        <div class="slideshow-item-text">
+            <!--            <h5>Заголовок</h5>-->
+            <!--            <p>Уютная атмосфера</p>-->
+        </div>
+    </div>
+    <div class="slideshow-item">
+        <img src="img/photo11.jpg" alt="">
+        <div class="slideshow-item-text">
+            <!--            <h5>Заголовок</h5>-->
+            <!--            <p>Здесь всегда можно вкусно пожрать</p>-->
+        </div>
+    </div>
+</div>
+<section class="our-menu">
+    <div class="our-menu-container container">
+        <div class="tab-container ">
+            <div class="tab-wrapper">
+                <input type="radio" name="tab" id="tab1" checked/>
+                <label class="tab-label no-select atuin-btn" for="tab1" nth="1">Завтраки</label>
+                <div class="tab-item" id="tab-content1">
+                    <div class="tabs-content__item animated zoomIn animated zoomIn">
+                        <div class="tabs-img__container">
+                            <img src="img/breakfast/блинчики с мясом.jpg" alt="">
+                        </div>
+                        <h4>Блинчики с мясом</h4>
+                    </div>
+                    <div class="tabs-content__item animated zoomIn">
+                        <div class="tabs-img__container">
+                            <img src="img/breakfast/воздушный омлет.jpg" alt="">
+                        </div>
+                        <h4>Воздушный омлет</h4>
+                    </div>
+                    <div class="tabs-content__item animated zoomIn">
+                        <div class="tabs-img__container">
+                            <img src="img/breakfast/яичница.jpg" alt="">
+                        </div>
+                        <h4>Яичница</h4>
+                    </div>
+                    <div class="tabs-content__item animated zoomIn">
+                        <div class="tabs-img__container">
+                            <img src="img/breakfast/Сэндвич.jpg" alt="">
+                        </div>
+                        <h4>Сэндвич</h4>
+                    </div>
+                </div>
+                <input type="radio" name="tab" id="tab2"/>
+                <label class="tab-label no-select atuin-btn" for="tab2" nth="2">Пиццы</label>
+                <div class="tab-item" id="tab-content2">
+                    <div class="tabs-content__item animated zoomIn">
+                        <div class="tabs-img__container">
+                            <img src="img/pizzas/Пицца1.jpg" alt="">
+                        </div>
+                        <h4>Пицца1</h4>
+                    </div>
+                    <div class="tabs-content__item animated zoomIn">
+                        <div class="tabs-img__container">
+                            <img src="img/pizzas/Пицца2.jpg" alt="">
+                        </div>
+                        <h4>Пицца2</h4>
+                    </div>
+                    <div class="tabs-content__item animated zoomIn">
+                        <div class="tabs-img__container">
+                            <img src="img/pizzas/Пицца3.jpg" alt="">
+                        </div>
+                        <h4>Пицца3</h4>
+                    </div>
+                    <div class="tabs-content__item animated zoomIn">
+                        <div class="tabs-img__container">
+                            <img src="img/pizzas/Пицца4.jpg" alt="">
+                        </div>
+                        <h4>Пицца4</h4>
+                    </div>
+                </div>
+                <input type="radio" name="tab" id="tab3"/>
+                <label class="tab-label no-select atuin-btn" for="tab3" nth="3">Десерты</label>
+                <div class="tab-item" id="tab-content3">
+                    <div class="tabs-content__item animated zoomIn">
+                        <div class="tabs-img__container">
+                            <img src="img/deserts/Донат с белой глазурью.jpg" alt="">
+                        </div>
+                        <h4>Донат с белой глазурью</h4>
+                    </div>
+                    <div class="tabs-content__item animated zoomIn">
+                        <div class="tabs-img__container">
+                            <img src="img/deserts/Донат с ванильной глазурью.jpg" alt="">
+                        </div>
+                        <h4>Донат с ванильной глазурью</h4>
+                    </div>
+                    <div class="tabs-content__item animated zoomIn">
+                        <div class="tabs-img__container">
+                            <img src="img/deserts/Донат с оранжевой глазурью.jpg" alt="">
+                        </div>
+                        <h4>Донат с оранжевой глазурью</h4>
+                    </div>
+                    <div class="tabs-content__item animated zoomIn">
+                        <div class="tabs-img__container">
+                            <img src="img/deserts/Донат с розовой глазурью.jpg" alt="">
+                        </div>
+                        <h4>Донат с розовой глазурью</h4>
+                    </div>
+                    <div class="tabs-content__item animated zoomIn">
+                        <div class="tabs-img__container">
+                            <img src="img/deserts/Пирог-Карамельно-яблочный-300x300.jpg" alt="">
+                        </div>
+                        <h4>Пирог-Карамельно-яблочный</h4>
+                    </div>
+                    <div class="tabs-content__item animated zoomIn">
+                        <div class="tabs-img__container">
+                            <img src="img/deserts/Тарталетка-Ягодная-300x300.jpg" alt="">
+                        </div>
+                        <h4>Тарталетка-Ягодная</h4>
+                    </div>
+                    <div class="tabs-content__item animated zoomIn">
+                        <div class="tabs-img__container">
+                            <img src="img/deserts/Торт-Брунисчный-с-белым-шоколадом-300x300.jpg" alt="">
+                        </div>
+                        <h4>Торт-Брунисчный-с-белым-шоколадом</h4>
+                    </div>
+                </div>
+                <input type="radio" name="tab" id="tab4"/>
+                <label class="tab-label no-select atuin-btn" for="tab4" nth="4">Напитки</label>
+                <div class="tab-item" id="tab-content4">
+                    <div class="tabs-content__item animated zoomIn">
+                        <div class="tabs-img__container">
+                            <img src="img/coffe-and-tea/lavandovyj-chaj.jpg" alt="">
+                        </div>
+                        <h4>Лавандовый чай</h4>
+                    </div>
+                    <div class="tabs-content__item animated zoomIn">
+                        <div class="tabs-img__container">
+                            <img src="img/coffe-and-tea/Американо.jpg" alt="">
+                        </div>
+                        <h4>Американо</h4>
+                    </div>
+                    <div class="tabs-content__item animated zoomIn">
+                        <div class="tabs-img__container">
+                            <img src="img/coffe-and-tea/Двойной экспрессо.jpg" alt="">
+                        </div>
+                        <h4>Двойной экспрессо</h4>
+                    </div>
+                    <div class="tabs-content__item animated zoomIn">
+                        <div class="tabs-img__container">
+                            <img src="img/coffe-and-tea/Капучиноjpg.jpg" alt="">
+                        </div>
+                        <h4>Двойной экспрессо</h4>
+                    </div>
+                    <div class="tabs-content__item animated zoomIn">
+                        <div class="tabs-img__container">
+                            <img src="img/coffe-and-tea/Кофе флэт уайт.jpg" alt="">
+                        </div>
+                        <h4>Кофе флэт уайт</h4>
+                    </div>
+                    <div class="tabs-content__item animated zoomIn">
+                        <div class="tabs-img__container">
+                            <img src="img/coffe-and-tea/Латте голубой.jpg" alt="">
+                        </div>
+                        <h4>Латте голубой.jpg</h4>
+                    </div>
+                </div>
+                <input type="radio" name="tab" id="tab5"/>
+                <label class="tab-label no-select atuin-btn" for="tab5" nth="5">Торты</label>
+                <div class="tab-item" id="tab-content5">
+                    <div class="tabs-content__item animated zoomIn">
+                        <div class="tabs-img__container">
+                            <img src="img/torts/Бертон.jpg" alt="">
+                        </div>
+                        <h4>Бертон</h4>
+                    </div>
+                    <div class="tabs-content__item animated zoomIn">
+                        <div class="tabs-img__container">
+                            <img src="img/torts/ВУДИ АЛЕН.jpg" alt="">
+                        </div>
+                        <h4>Вуди Ален</h4>
+                    </div>
+                    <div class="tabs-content__item animated zoomIn">
+                        <div class="tabs-img__container">
+                            <img src="img/torts/Коламбус.jpg" alt="">
+                        </div>
+                        <h4>Коламбус</h4>
+                    </div>
+                    <div class="tabs-content__item animated zoomIn">
+                        <div class="tabs-img__container">
+                            <img src="img/torts/Тарантино.jpg" alt="">
+                        </div>
+                        <h4>Тарантино</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="mailing">
+    <div class="container">
+        <div class="mailing-body">
+            <div class="mailing-body_title">
+                <h3>БУДЬТЕ ВСЕГДА В КУРСЕ!</h3>
+            </div>
+            <div class="mailing-body_text">
+                <p>Подпишитесь на рассылку и будьте всегда в курсе новинок акций и новостей!!</p>
+            </div>
+            <form action="mailing-form.php" method="post" class="mailing-form">
+                <input type="email" name="email" id="email" class="input-mail" placeholder="Введите Ваш email" required>
+                <button type="submit" class="mailing-btn">
+                    Подписаться
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container footer-container">
+        <div class="contacts-footer">
+            <div class="contacts-footer__title">
+                <h3>Наши контакты</h3>
+            </div>
+            <a href="tel:+79268379376"class="contacts-footer__tel">
+                <img src="img/icons/phone.png" alt="">
+                <p>+7 (977) 858-99-38</p>
+            </a>
+            <div class="contacts-footer__address">
+                <img src="img/icons/location.png" alt="">
+                ул. Александры Монаховой, 92, корп. 3
+                этаж 1
+            </div>
+            <div class="contacts-footer__social">
+                <p>Мы в социальных сетях</p>
+                <div class="social-icons">
+                    <a href="#"><img src="img/icons/instagram (1).png" alt=""></a>
+                    <a href="#"><img src="img/icons/facebook (1).png" alt=""></a>
+                </div>
+            </div>
+            <div class="schedule">
+                График работы: ежедневно с 11:00 до 23:00
+            </div>
+        </div>
+        <div class="map2">
+            <div class="ymap-container2">
+                <div class="loader2 loader-default2"></div>
+                <div id="map-yandex2" class="map-yandex2"></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-of-footer">
+        <p>bullavka.moscow © Разработка сайта: Bessonniy</p>
+    </div>
+</footer>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<!--<script src="js/jquery.min.js"></script>-->
+<script src="js/script.js"></script>
+</body>
+</html>
